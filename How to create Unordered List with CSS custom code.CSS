@@ -1,0 +1,13 @@
+label#label_123 {
+    padding-bottom: 45px !important;
+}
+
+#label_123:after {
+    position: absolute !important;
+    content: "• Neat, well groomed. \A • Apropriately attired.";
+    font-size: .9rem;
+    left: 0;
+    top: 30px;
+    display: inline-block;
+    white-space: pre-line;
+}
