@@ -1,0 +1,15 @@
+
+@media screen and (max-width: 480px), screen and (max-device-width: 768px) and (orientation: portrait), screen and (max-device-width: 415px) and (orientation: landscape){
+    .form-line[data-payment="true"] div[data-wrapper-react="true"] .form-product-item.new_ui .form-product-item-detail.new_ui {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    }
+    }
+
+/*Show Price, title and image in single row*/
+.form-line[data-payment=true] span.form-product-item .form-product-container span[data-wrapper-react=true] {
+    flex-direction: row;
+}
+.form-line[data-payment="true"] .form-product-item.new_ui.show_image .form-product-container .form-sub-label-container {
+    display: flex !Important;
+}
