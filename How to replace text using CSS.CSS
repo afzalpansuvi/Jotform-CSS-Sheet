@@ -1,0 +1,29 @@
+/*Replace a text using CSS*/
+
+button {
+    visibility: hidden;
+  }
+  button:after {
+    content:'goodbye'; 
+    visibility: visible;
+    display: block;
+    position: absolute;
+    background-color: red;
+    padding: 5px;
+    top: 2px;
+  }
+
+  span#input_52_1005_price,
+  span#input_52_1004_price,
+  span#input_52_1002_price {
+    visibility: hidden;
+}
+
+  span#input_52_1005_price:after,
+  span#input_52_1004_price:after,
+  span#input_52_1002_price:after {
+    content: "Not Free";
+    visibility: visible;
+    display: block;
+    position: absolute;
+}
