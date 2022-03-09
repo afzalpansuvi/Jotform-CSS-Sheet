@@ -1,0 +1,50 @@
+#label_3_row_0:hover:after {
+    content: 'This is some long text eplaining the features or options further.';
+    display: block;
+}
+#label_3_row_1:hover:after {
+    content: 'This is some additional text for the second row';
+    display: block;
+}
+#label_3_row_2:hover:after {
+    content: 'More text for this row';
+    display: block;
+}
+#label_3_row_3:hover:after {
+    content: 'Additional text for the final row in a table';
+    display: block;
+}
+#label_3_row_0:after,
+#label_3_row_1:after,
+#label_3_row_2:after,
+#label_3_row_3:after {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 0px;
+    z-index: 9;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #b5b4b4;
+}
+
+/*For thread 3833226*/
+#input_70:hover:after {
+    content: 'This is some long text eplaining the features or options further.';
+    display: block;
+}
+#input_72:hover:after {
+    content: 'This is some long text eplaining the features or options further.';
+    display: block;
+}
+#input_70:after,
+#input_72:after {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 0px;
+    z-index: 9;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #b5b4b4;
+}
