@@ -1,2 +1,2 @@
-# Jotform Css Sheet
+# Jotform CSS Sheet
  
