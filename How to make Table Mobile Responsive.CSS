@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px), screen and (max-device-width: 767px) and (orientation: portrait), screen and (max-device-width: 415px) and (orientation: landscape){
+    .form-matrix-row-headers {
+    word-break: break-word;
+    }
+    th.form-matrix-column-headers {
+    min-width: 25px;
+    width: 25px;
+    }
+    .form-all{
+    margin:auto!important;
+    }
+    }
+    
