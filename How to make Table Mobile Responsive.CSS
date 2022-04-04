@@ -11,3 +11,27 @@
     }
     }
     
+
+    @media screen and (max-width: 480px){
+li[data-type=control_datetime] .notLiteMode .form-sub-label-container.day, li[data-type=control_datetime] .notLiteMode .form-sub-label-container.month {
+  max-width: 80px;
+}
+    }
+#label_179 {
+  height: 120px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.form-line {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 33% !important;
+    display: flex !important;
+    flex-flow: column !important;
+}
+ul#section_744 {
+    width: 100% !important;
+    max-width: 90% !important;
+    display: flex !important;
+    flex-direction: row !important;
+}

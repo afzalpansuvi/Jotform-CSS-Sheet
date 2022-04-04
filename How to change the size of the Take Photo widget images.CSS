@@ -1,0 +1,38 @@
+iframe#customFieldFrame_52 {
+    max-width: 600px !important;
+    border: none;
+    width: 600px !important;
+    height: 460px !important;
+}
+div#wrapper {
+    height: 460px !important;
+}
+body.takePhotoClassicLayout #webcam {
+    height: 460px!important;
+    margin-top: 1px !important;
+}
+body.takePhotoClassicLayout #webcam video {
+    width: 600px!important;
+    height: 100%!important;
+}
+
+/*Excluding Mobile*/
+@media only screen and (min-width: 480px){
+        iframe#customFieldFrame_52 {
+            max-width: 600px !important;
+            border: none;
+            width: 600px !important;
+            height: 460px !important;
+        }
+        div#wrapper {
+            height: 800px !important;
+        }
+        body.takePhotoClassicLayout #webcam {
+            height: 460px!important;
+            margin-top: 1px !important;
+        }
+        body.takePhotoClassicLayout #webcam video {
+            width: 630px!important;
+            height: 100%!important;
+        }
+    }
