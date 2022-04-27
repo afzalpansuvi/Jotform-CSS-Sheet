@@ -27,3 +27,85 @@ button {
     display: block;
     position: absolute;
 }
+
+
+li.ht {
+  visibility: hidden;
+}
+
+li.ht:before {
+  content: 'Hello';
+  visibility: visible;
+  display: block;
+  position: absolute;
+  text-indent: 0;
+}
+
+li.ht {
+  visibility: hidden;
+}
+
+li.ht:before {
+  content: 'Hello';
+  visibility: visible;
+  display: contents;
+  text-indent: 0;
+  padding: 1px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-dd .lang-list li.ht {
+  visibility: hidden;
+}
+
+.language-dd .lang-list li.ht {
+  content: 'Hello';
+  visibility: visible;
+  display: contents;
+  text-indent: 0;
+  padding: 1px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+html[lang="ht"] > body > form.jotform-form > div.form-all > div.cont > div.language-dd > div.dd-placeholder{
+  visibility: hidden;
+}
+
+html[lang="ht"] > body > form.jotform-form > div.form-all > div.cont > div.language-dd > div.dd-placeholder.en::after{
+  content: 'Hello';
+  visibility: visible;
+  display: contents;
+  text-indent: 0;
+  padding: 1px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+html[lang="ht"] > body > form.jotform-form > div.form-all > div.cont > div.language-dd > div.dd-placeholder{
+	color: #ffffff !important;
+}
+
+html[lang="ht"] > body > form.jotform-form > div.form-all > div.cont > div.language-dd > div.dd-placeholder.en::after{
+	content: "Hello" !important;
+	color: #666 !important;
+	position: absolute !important;
+	left: 32px !important;
+}
+
+
+.language-dd .lang-list li.ht {
+  visibility: hidden;
+}
+
+.language-dd .lang-list li.ht:before {
+  content: 'Kreyòl Ayisyen';
+  visibility: visible;
+  display: contents;
+  text-indent: 0;
+  padding: 1px 20px;
+  align-items: center;
+  justify-content: center;
+}

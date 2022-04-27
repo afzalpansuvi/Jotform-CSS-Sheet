@@ -1,0 +1,138 @@
+tr:nth-child(2):hover {
+    position: relative !important;
+}
+tr:nth-child(2):hover {
+    content: url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    width: 100px !important;
+    height: 100px !important;
+    display: block !important;
+    position: absolute !important;
+    left: 250px !important; 
+    top: 156px !important;
+    background-position:inherit;
+}
+/*Final Working*/
+tr:nth-child(2) {
+    position: relative;
+}
+tr:nth-child(2):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*Final for Client*/
+
+tr:nth-child(2) {
+    position: relative;
+}
+tr:nth-child(2):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(3) {
+    position: relative;
+}
+tr:nth-child(3):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(4) {
+    position: relative;
+}
+tr:nth-child(4):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(5) {
+    position: relative;
+}
+tr:nth-child(5):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(6) {
+    position: relative;
+}
+tr:nth-child(6):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(7) {
+    position: relative;
+}
+tr:nth-child(7):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(8) {
+    position: relative;
+}
+tr:nth-child(8):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(9) {
+    position: relative;
+}
+tr:nth-child(9):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(10) {
+    position: relative;
+}
+tr:nth-child(10):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+tr:nth-child(11) {
+    position: relative;
+}
+tr:nth-child(11):hover:after {
+    content:''; 
+    background:url(https://www.jotform.com/uploads/greatbluedesign/form_files/craft-mens-core-gain-black.jpg);
+    position: absolute;
+    padding:20px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
