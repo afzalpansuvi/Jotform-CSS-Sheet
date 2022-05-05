@@ -1,0 +1,52 @@
+label#label_3_col_2 {
+   position: absolute;
+  width: 100%;
+  -webkit-transform: rotate(270deg) translateX(-100%);
+          transform: rotate(270deg) translateX(-100%);
+  -webkit-transform-origin: 0px 0px;
+          transform-origin: 0px 0px;
+}
+
+
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_2 {
+    min-width: 60px !important;
+    text-align: -webkit-match-parent !important;
+}
+
+/*Test Here*/
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_2,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_3,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_4, 
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_5,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_6,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_7,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_8,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_9,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_15,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_16,
+th.form-matrix-headers.form-matrix-column-headers.form-matrix-column_17
+{
+    padding: 2px !important;
+}
+
+
+
+label#label_3_col_2, 
+label#label_3_col_3,
+label#label_3_col_4,
+label#label_3_col_5,
+label#label_3_col_6,
+label#label_3_col_7,
+label#label_3_col_8,
+label#label_3_col_9,
+label#label_3_col_15,
+label#label_3_col_16,
+label#label_3_col_17
+{
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    min-width: 16px;
+    height: 258px;
+ }
+ 
+ 
