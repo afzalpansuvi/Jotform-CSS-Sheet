@@ -1,0 +1,38 @@
+/*To change all*/
+
+.form-checkbox+label:after,
+.form-checkbox+span:after,
+.form-checkbox:checked+label:after,
+.form-checkbox:checked+span:after {
+    border: 8px solid !important;
+    border-left-width: 5px !important;
+    border-right-width: 5px !important;
+}
+
+.form-checkbox:checked+label:after,
+.form-checkbox:checked+span:before {
+    background-image: none !important;
+}
+
+.form-checkbox:checked+label:after,
+.form-checkbox:checked+span:after,
+.form-checkbox:checked+span label:after {
+    border-color: red !important;
+    background-color: white !important;
+}
+
+/*To target one*/
+label#label_input_144_0:after {
+    border: 8px solid !important;
+    border-left-width: 5px !important;
+    border-right-width: 5px !important;
+    background-image: none !important;
+    border-color: red !important;
+    background-color: white !important;
+}
+
+/*increase or decrease the border-radius*/
+label#label_input_144_0:before,
+label#label_input_144_0:after {
+    border-radius: 3px !important;
+}

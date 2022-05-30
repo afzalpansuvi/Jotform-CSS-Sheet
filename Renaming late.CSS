@@ -1,0 +1,72 @@
+tr {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+#list > tbody >tr:first-child {
+    display: none !important;
+}
+
+.col1 > .stepper-wrap >input.stepper {
+    width: 200px !important;
+}
+td.col1:before {
+    content: "Title ";
+    top: -15px;
+    position: absolute;
+}
+
+.col2 > .stepper-wrap >input.stepper {
+    width: 200px !important;
+}
+td.col2:before {
+    content: "Title ";
+    top: -15px;
+    position: absolute;
+}
+
+.col3 > input.translatable {
+    width: 200px !important;
+}
+td.col3:before {
+    content: "Title ";
+    top: -15px;
+    position: absolute;
+}
+/*-----The New line-----*/
+
+.col4 > .stepper-wrap >input.stepper {
+    width: 130px !important;
+}
+td.col4:before {
+    content: "Title ";
+    top: -15px;
+    position: absolute;
+}
+
+.col5 > .stepper-wrap >input.stepper {
+   width: 130px !important;
+}
+td.col5:before {
+    content: "Title ";
+    top: -15px;
+    position: absolute;
+}
+
+.col6 > .stepper-wrap >input.stepper {
+    width: 130px !important;
+}
+td.col6:before {
+    content: "Title ";
+    top: -15px;
+    position: absolute;
+}
+
+.col7 > .stepper-wrap >input.stepper {
+    width: 130px !important;
+}
+td.col7:before {
+    content: "Title ";
+    top: -15px;
+    position: absolute;
+}
