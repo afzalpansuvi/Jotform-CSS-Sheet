@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JotForm Widget Example</title>
+        <script src="//cdn.jsdelivr.net/npm/@jotform/jotform-widgets@3.0.8/dist/widget.js"></script>
+        <style>
+            html.toggle-on { color: red; }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <h3>This is my first widget.</h3>
+            <span id="labelText"></span>
+            <div class="jf-widget jf-required" id="radio-buttons" data-type="control_radio">
+                <label class="jf-label">On</label>
+                <input type="radio" name="radio-buttons" value="on" class="jf-input jf-required">
+                <label class="jf-label">Off</label>
+                <input type="radio" name="radio-buttons" value="off" class="jf-input jf-required">
+            </div>
+        </div>
+        <script type="text/javascript">
+            //always subscribe to ready event and implement widget related code
+            //inside callback function , it is the best practice while developing widgets
+            JotForm.subscribe("ready", function(){
+                var label = JotForm.getWidgetSetting('QuestionLabel');
+                document.getElementById('labelText').innerHTML = label;
+                //subscribe to form submit event
+                JotForm.subscribe("submit", function(){
+                    var msg = {
+                        //you should valid attribute to data for JotForm
+                        //to be able to use youw widget as required
+                        valid: true,
+                        value: document.querySelector('input[name="radio-buttons"]:checked').value
+                    }
+                    // send value to JotForm
+                    JotForm.sendSubmit(msg);
+                });
+                // toggle CSS when radio button is clicked
+                document.querySelectorAll('input[name="radio-buttons"]').forEach(function(element) {
+                    element.addEventListener('click', function(event) {
+                        var htmlElem = document.querySelector('html');
+                        if (document.querySelector('input[name="radio-buttons"]:checked').value === 'on') {
+                            htmlElem.classList.add('toggle-on');
+                        } else {
+                            htmlElem.classList.remove('toggle-on');
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
